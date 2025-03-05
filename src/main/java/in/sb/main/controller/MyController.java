@@ -56,6 +56,7 @@ public class MyController {
 	}else {
 		model.addAttribute("errMess", "email and password not match");
 		return "login";
+		
 
 	}
 	
